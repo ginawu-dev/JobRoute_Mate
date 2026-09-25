@@ -4,192 +4,211 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy — JobRoute Mate</title>
-
+  <meta name="description" content="Privacy policy for JobRoute Mate, a job scheduling and route planning app for mobile service professionals.">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://ginawu-dev.github.io/JobRoute_Mate/privacy.html">
   <style>
+    :root {
+      --primary: #3749d8;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #e5e7eb;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
-      color: #1f2937;
-      background: #f5f7fb;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--bg);
     }
 
     main {
-      max-width: 850px;
+      max-width: 900px;
       margin: 40px auto;
-      padding: 40px;
-      background: white;
+      padding: 40px 28px 32px;
+      background: var(--card);
+      border: 1px solid var(--line);
       border-radius: 18px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.05);
     }
 
     h1 {
-      color: #4338ca;
-      margin-top: 0;
+      margin: 0 0 0.5rem;
+      color: var(--primary);
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      letter-spacing: -0.04em;
     }
 
     h2 {
-      margin-top: 32px;
-      color: #111827;
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.4rem;
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+      font-size: 1.1rem;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 1.3rem;
+    }
+
+    a {
+      color: var(--primary);
     }
 
     .updated {
       color: #6b7280;
       font-size: 0.95rem;
-    }
-
-    a {
-      color: #4338ca;
+      margin-bottom: 1.2rem;
     }
 
     footer {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #e5e7eb;
+      margin-top: 2.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--line);
       color: #6b7280;
-      font-size: 0.9rem;
+      font-size: 0.92rem;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 640px) {
       main {
         margin: 0;
         border-radius: 0;
-        padding: 24px;
+        padding: 24px 18px 28px;
       }
     }
   </style>
 </head>
-
 <body>
   <main>
     <h1>Privacy Policy</h1>
-
-    <p class="updated">Last updated: August 2026</p>
-
-    <p>
-      JobRoute Mate helps service professionals manage clients, jobs,
-      schedules, reminders, and daily travel routes. This Privacy Policy
-      explains how information is handled when you use the JobRoute Mate app.
-    </p>
-
-    <h2>Information You Add</h2>
+    <p class="updated">Last updated: September 2026</p>
 
     <p>
-      JobRoute Mate allows you to enter information such as:
+      JobRoute Mate helps mobile service professionals schedule jobs, organize client information,
+      keep service records, and review daily routes. This Privacy Policy explains the information
+      that may be entered, stored, synchronized, or exported when using the app.
     </p>
 
+    <p>
+      The current App Store privacy disclosure for JobRoute Mate states: <strong>Data Not Collected</strong>.
+      This website and repository do not include an app implementation, so this policy is written conservatively
+      from the public App Store listing and the public website content available in this repository.
+    </p>
+
+    <h2>Information stored by the app</h2>
+    <p>
+      JobRoute Mate allows users to enter and store information related to their work, including:
+    </p>
     <ul>
-      <li>Client names</li>
-      <li>Addresses</li>
-      <li>Phone numbers</li>
-      <li>Notes and language preferences</li>
-      <li>Job dates, times, durations, prices, and service summaries</li>
-      <li>Payment status and staff assignments</li>
-      <li>Job reminders</li>
+      <li>Client names and contact details</li>
+      <li>Client addresses and multiple saved addresses</li>
+      <li>Client phone numbers and additional contact records</li>
+      <li>Job details such as service date, start time, duration, address, price, and service notes</li>
+      <li>Payment status, reminders, and staff assignments</li>
+      <li>Service history, historical prices, service summaries, and service dates</li>
+      <li>Calendar entries and daily work list information</li>
     </ul>
-
     <p>
-      This information is provided by you and is used to help manage your
-      business appointments and client relationships.
+      This information is used to help a professional keep track of jobs, clients, appointments, and daily routes.
+      The app stores this information on the device and may make it available across supported Apple devices
+      if iCloud synchronization is enabled.
     </p>
 
-    <h2>Location Information</h2>
-
+    <h2>Client and job information</h2>
     <p>
-      JobRoute Mate may request access to your device location to help plan
-      travel between service addresses and display route information on a map.
-      Location access is optional. If you do not grant permission, you can
-      continue using client and scheduling features, but route calculations
-      may be limited.
+      JobRoute Mate supports adding new clients and selecting existing clients when creating a job. It can save
+      multiple addresses and phone numbers for clients and can keep a record of client job history, service summaries,
+      historical dates, and previous prices. Job-related records may also include service notes, payment status,
+      and reminders.
+    </p>
+    <p>
+      We do not assume the developer receives these records unless there is clear evidence showing developer-side
+      collection or a separate server or API. The available public information indicates that the app’s privacy
+      disclosure is “Data Not Collected.”
     </p>
 
-    <h2>iCloud Synchronization</h2>
-
+    <h2>Staff information</h2>
     <p>
-      If iCloud synchronization is enabled on your device, selected client,
-      staff, and job information may be synchronized through Apple's iCloud
-      services. This allows your information to be available across your
-      supported Apple devices using the same Apple Account.
+      The app supports staff assignment and filtering of calendar and route information by staff member. Staff records,
+      if entered into the app, are used to organise assignments and help view jobs by staff member. This information is
+      limited to what the user enters and stores locally or synchronizes via iCloud.
     </p>
 
+    <h2>Maps and route information</h2>
     <p>
-      JobRoute Mate does not operate its own independent cloud database for
-      your client or job information.
+      JobRoute Mate can display daily jobs on a map and provide estimated driving time and estimated driving distance.
+      The App Store listing also states that route warnings can appear when service duration, travel time, and buffer
+      time may create appointment conflicts. This does not imply continuous background GPS tracking or developer-operated
+      route optimization services. The available public information does not show a requirement for constant location tracking.
+    </p>
+    <p>
+      Any location-related processing is limited to what the app supports for route planning on the user’s device and for
+      route display based on job addresses and user-selected route information.
     </p>
 
-    <h2>Exports</h2>
-
+    <h2>iCloud sync</h2>
     <p>
-      JobRoute Mate allows you to export client and job information as CSV
-      files. Exported files are controlled by you and may be shared through
-      apps or services you choose, including Excel, Numbers, email, or cloud
-      storage.
+      JobRoute Mate supports synchronization of client, staff, and job information through Apple’s iCloud infrastructure.
+      If enabled, this allows selected data to be available across supported Apple devices using the same Apple Account.
+      The app is not described as operating a separate developer-owned cloud database for this data.
     </p>
 
-    <h2>In-App Purchases</h2>
-
+    <h2>CSV export</h2>
     <p>
-      JobRoute Mate offers an optional Premium upgrade. Purchases are
-      processed by Apple through the App Store. JobRoute Mate does not receive
-      or store your payment card details.
+      Job and client information can be exported as CSV files for use in Excel or Numbers. These exported files are under the
+      user’s control and may be shared through other apps, email, or cloud storage services chosen by the user.
     </p>
 
     <h2>Notifications</h2>
-
     <p>
-      If you enable job reminders, JobRoute Mate may schedule local
-      notifications on your device. Notification settings can be changed at
-      any time in your device settings.
+      If reminders are enabled, the app may schedule notifications on the user’s device. Notification settings can be managed
+      in the device settings, and app reminders are intended to support scheduling and service follow-up.
     </p>
 
-    <h2>Advertising and Analytics</h2>
-
+    <h2>Third-party services</h2>
     <p>
-      JobRoute Mate does not display third-party advertising and does not use
-      third-party analytics services to track your activity.
+      The public App Store privacy disclosure for JobRoute Mate states that data is not collected. The repository available for
+      this project contains only website files and no app implementation, so there is no code-level evidence of analytics SDKs,
+      advertising SDKs, tracking SDKs, crash reporting services, developer-operated APIs, or third-party mapping services within
+      the app source. This policy therefore does not claim any additional developer or third-party collection beyond the public
+      App Store disclosure.
     </p>
 
-    <h2>Data Security</h2>
-
+    <h2>Data retention and deletion</h2>
     <p>
-      Information stored locally on your device is protected by the security
-      features of your Apple device. Information synchronized through iCloud
-      is handled according to Apple's security and privacy practices.
+      Information in the app is retained based on the user’s records and usage of the app. User-controlled data can be deleted
+      from the app, and synchronized data may also be managed through Apple device and iCloud settings. The public information
+      available here does not provide a separate developer-managed deletion process beyond the user’s local app and iCloud controls.
     </p>
 
-    <h2>Data Removal</h2>
-
+    <h2>Children’s privacy</h2>
     <p>
-      You can remove clients, jobs, and other information directly within the
-      app. You can also manage or remove synchronized information through
-      your Apple device and iCloud settings.
+      JobRoute Mate is a business and professional scheduling app intended for service professionals and is not directed toward
+      children under the age of 13.
     </p>
 
-    <h2>Children's Privacy</h2>
-
+    <h2>Changes to this privacy policy</h2>
     <p>
-      JobRoute Mate is intended for business and professional use and is not
-      directed toward children under the age of 13.
-    </p>
-
-    <h2>Changes to This Policy</h2>
-
-    <p>
-      This Privacy Policy may be updated from time to time. The updated
-      version will be published on this page with a revised “Last updated”
-      date.
+      This policy may be updated from time to time. Any changes will be reflected on this page with a revised date.
     </p>
 
     <h2>Contact</h2>
-
     <p>
-      If you have questions about this Privacy Policy, contact:
-    </p>
-
-    <p>
-      <a href="mailto:ginawuwriter@outlook.com">
-        ginawuwriter@outlook.com
-      </a>
+      If you have questions about this Privacy Policy, contact the support email provided on the public website:
+      <a href="mailto:ginawuwriter@outlook.com">ginawuwriter@outlook.com</a>
     </p>
 
     <footer>
